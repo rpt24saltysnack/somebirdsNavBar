@@ -1,0 +1,19 @@
+{
+  "name": "somebirdsnavbar",
+  "version": "1.0.0",
+  "description": "Navigation bar located at the top of the page",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rpt24saltysnack/somebirdsNavBar.git"
+  },
+  "author": "7MIMIRA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rpt24saltysnack/somebirdsNavBar/issues"
+  },
+  "homepage": "https://github.com/rpt24saltysnack/somebirdsNavBar#readme"
+}
