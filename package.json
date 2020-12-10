@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/rpt24saltysnack/somebirdsNavBar/issues"
   },
-  "homepage": "https://github.com/rpt24saltysnack/somebirdsNavBar#readme"
+  "homepage": "https://github.com/rpt24saltysnack/somebirdsNavBar#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "webpack": "^5.10.0",
+    "webpack-cli": "^4.2.0"
+  }
 }
