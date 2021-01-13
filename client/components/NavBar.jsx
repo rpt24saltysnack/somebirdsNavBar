@@ -44,7 +44,6 @@ function NavBar() {
           <div className={styles.linkDiv}>
             <span className={styles.link} onClick={closeMenu}>STORES</span>
           </div>
-          {/* <div className={styles.svgPositioning}> */}
           <div className={styles.linkDiv}>
             <div className={styles.link} onClick={closeMenu}><img className={styles.svg} src="https://somebirds-static-assets.s3.us-east-2.amazonaws.com/assets/user.svg"></img></div>
           </div>
@@ -54,18 +53,14 @@ function NavBar() {
           <div className={styles.linkDiv}>
             <div className={styles.link} onClick={closeMenu}><img className={styles.svg} src="https://somebirds-static-assets.s3.us-east-2.amazonaws.com/assets/shoppingCart.svg"></img></div>
           </div>
-          {/* </div> */}
         </div>
       </div>
-      <div className={styles.navbarFooter}>
-      </div>
+      <div className={styles.navbarFooter}></div>
       {selection !== 'none' &&
       <div>
         <div className={styles.dropDownWindow}>
-          <div className={styles.menuContainer}>
             {selection === 'men' && <MenMenu />}
             {selection === 'women' && <WomenMenu />}
-          </div>
         </div>
         <div className={styles.pageBlanket} onClick={closeMenu}></div>
       </div>
