@@ -1,0 +1,78 @@
+.container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 26px;
+}
+
+.table {
+  width: 80%;
+  max-width: 1000px;
+}
+
+.category {
+  font-family: helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1.6px;
+  user-select: none;
+}
+
+.categoryItems {
+  padding-top: 60px;
+  padding-bottom: 40px;
+  width: 25%;
+}
+
+.itemRow {
+  font-family: helvetica;
+  font-size: 14px;
+  letter-spacing: .5px;
+  font-weight: 300;
+}
+
+.item {
+  padding-top: 7px;
+  user-select: none;
+  padding-bottom: 7px;
+}
+
+.itemEmpty {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  user-select: none;
+}
+
+.treeDasher {
+  background-image: url('https://somebirds-static-assets.s3.us-east-2.amazonaws.com/assets/ClassicTreeDasherHues.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  letter-spacing: 1.2;
+  font-weight: 800;
+  text-align: center;
+  color: #fff;
+}
+
+.mizzles {
+  background-image: url('https://somebirds-static-assets.s3.us-east-2.amazonaws.com/assets/Mizzles.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  letter-spacing: 1.2;
+  font-weight: 800;
+  text-align: center;
+  color: #fff;
+}
+
+.treeDasher:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.mizzles:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.item:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}

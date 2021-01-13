@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+.container {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  z-index: 6;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 60px;
+  width: 100%;
+  width: 100vw;
+  user-select: none;
+}
+
+.linkDiv {
+  display: inline-block;
+
+  /* padding: 24px 10px 0px 26px; */
+  padding-left: 30px;
+}
+
+.link:hover {
+  cursor: pointer;
+}
+
+.svgPositioning {
+  /* position: relative; */
+}
+
+.svg {
+  /* position: absolute;
+  top: 16px; */
+  height: 26px;
+}
+
+.leftLinks {
+  font-family: helvetica;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  width: 40%;
+}
+
+.logo {
+  font-family: 'Dancing Script', helvetica;
+  font-weight: 500;
+  /* letter-spacing: 1.2px; */
+  width: 20%;
+  font-size: 40px;
+  text-align: center;
+}
+
+.rightLinks {
+  font-family: helvetica;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 30px;
+  width: 40%;
+}
+
+.dropDownWindow {
+  background-color: #fff;
+  position: fixed;
+  z-index: 6;
+  top: 60px;
+  left: 0px;
+  width: 100vw;
+  /* border-top: 1px solid black; */
+}
+
+.navbarFooter {
+  background: linear-gradient(rgba(0, 0, 0, .05), rgba(0, 0, 0, 0));
+  position: fixed;
+  z-index: 7;
+  top: 60px;
+  left: 0px;
+  width: 100vw;
+  height: 15px;
+}
+
+.pageBlanket {
+  background-color: rgba(0, 0, 0, .5);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 5;
+  height: 100%;
+  width: 100%;
+}
